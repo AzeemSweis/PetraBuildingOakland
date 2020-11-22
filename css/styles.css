@@ -1,0 +1,59 @@
+body {
+  font-family: 'Cinzel', serif;
+}
+
+/* Navbar */
+.navbar {
+  padding: 1.5rem 3rem 0;
+}
+
+.nav-item {
+  padding-right: 35px;
+}
+
+a, .navbar {
+  font-size: 1.5rem;
+}
+
+.navbar-brand {
+  font-size: 3rem;
+}
+
+/* Landing Page */
+.landing {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/bg-placehold.jpg");
+  height: 900px;
+  /* image centers as you resize */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* end image centers as you resize */
+}
+
+.landing-text {
+  color: white;
+  text-align: center;
+  margin-top: 250px;
+}
+
+h1, .landing-text {
+  padding-bottom: 50px;
+  font-size: 4.5rem;
+}
+
+h2, .landing-text {
+  font-size: 2rem;
+}
+
+.cta-contact {
+  text-align: center;
+  color: white;
+  font-size: 1.3rem;
+}
+
+/* Information Section */
+.contact {
+  height: 500px;
+  padding: 50px 0 0;
+  text-align: center;
+}
