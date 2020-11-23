@@ -76,6 +76,15 @@ h2, .landing-text {
 
 /* Location Info */
 
+.oakland {
+  padding: 50px 100px 100px;
+}
+
+#map {
+  height: 400px;
+  width: 100%;
+}
+
 
 
 
