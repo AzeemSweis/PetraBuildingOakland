@@ -87,7 +87,7 @@ h2, .landing-text {
 
 /* Gallery */
 .flex-column {
-  max-width: 400px;
+  max-width: 450px;
 }
 
 
@@ -103,11 +103,11 @@ h2, .landing-text {
 
 @media (max-width: 1028px) {
   .flex-column {
-    max-width: 200px;
+    max-width: 300px;
   }
 
   p {
-    font-size: 25px;
+    font-size: 30px;
   }
   /* landing */
   .landing-text {
