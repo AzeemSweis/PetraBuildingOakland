@@ -12,6 +12,10 @@ img {
 }
 
 /* Navbar */
+.landing {
+  padding-top: 50px;
+}
+
 .navbar {
   padding: 0 2rem 25px;
 }
@@ -35,9 +39,14 @@ a, .navbar {
 }
 
 /* Landing Page */
-.landing {
 
+
+.cta {
+  padding: 0 50px;
+  transform: translateY(65px);
 }
+
+
 
 .landing-text {
   color: black;
@@ -61,7 +70,7 @@ a, .navbar {
 /* Information Section */
 
 .info {
-  padding: 50px 100px 100px;
+  padding: 100px 100px 100px;
   background-color: #ededed;
 }
 
@@ -105,8 +114,33 @@ a, .navbar {
   max-width: 450px;
 }
 
+.gal-img {
+  transition: transform .4s;
+}
 
+.gal-img:hover {
+  transform: scale(1.5);
+}
 
+.gallery-mob {
+  display: none;
+  background-color: #ededed;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* Footer */
+.cl {
+  padding: 50px 0 0 0;
+  font-size: 20px;
+  text-align: center;
+}
+
+.cred p{
+  text-align: right;
+  font-size: 12px;
+}
 
 /* Resizing Options */
 
@@ -118,7 +152,7 @@ a, .navbar {
 
 @media (max-width: 1028px) {
   .flex-column {
-    max-width: 300px;
+    max-width: 400px;
   }
 
   p {
@@ -136,5 +170,13 @@ a, .navbar {
   .left-info {
     text-align: center;
     padding-right: 0;
+  }
+
+  .gallery {
+    display: none;
+  }
+
+  .gallery-mob {
+    display: unset;
   }
 }
