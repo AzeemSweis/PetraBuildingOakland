@@ -92,7 +92,8 @@ a, .navbar {
 }
 
 .spotlight-photo {
-  padding: 50px;
+  padding-bottom: 30px;
+  width: 100%;
 }
 
 /* Location Info */
