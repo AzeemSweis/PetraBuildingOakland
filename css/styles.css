@@ -91,6 +91,10 @@ a, .navbar {
   text-align: center;
 }
 
+.spotlight-photo {
+  padding: 50px;
+}
+
 /* Location Info */
 
 .oakland {
@@ -103,11 +107,12 @@ a, .navbar {
 }
 
 /* Gallery */
+
 .gallery {
-  background-color: #ededed;
   text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
+  background-color: #ededed;
 }
 
 .flex-column {
@@ -119,16 +124,16 @@ a, .navbar {
 }
 
 .gal-img:hover {
-  transform: scale(1.5);
+  transform: scale(1.35);
 }
 
-.gallery-mob {
+/* .gallery-mob {
   display: none;
-  background-color: #ededed;
   text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
-}
+
+} */
 
 /* Footer */
 .cl {
@@ -152,7 +157,11 @@ a, .navbar {
 
 @media (max-width: 1028px) {
   .flex-column {
-    max-width: 400px;
+    max-width: 300px;
+  }
+
+  .navbar-brand {
+    font-size: 60px;
   }
 
   p {
@@ -170,13 +179,5 @@ a, .navbar {
   .left-info {
     text-align: center;
     padding-right: 0;
-  }
-
-  .gallery {
-    display: none;
-  }
-
-  .gallery-mob {
-    display: unset;
   }
 }
