@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 body {
   font-family: 'Cinzel', serif;
   font-weight: 600;
@@ -5,6 +7,7 @@ body {
 
 p {
   font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 img {
@@ -149,7 +152,7 @@ a, .navbar {
 
 /* Footer */
 .cl {
-  padding: 50px 0 0 0;
+  padding: 10px 0 0 0;
   font-size: 20px;
   text-align: center;
 }
@@ -191,5 +194,9 @@ a, .navbar {
   .left-info {
     text-align: center;
     padding-right: 0;
+  }
+
+  .info-header {
+    font-size: 4rem;
   }
 }
