@@ -199,4 +199,9 @@ a, .navbar {
   .info-header {
     font-size: 4rem;
   }
+
+  .con-tit {
+    margin: auto 0;
+    padding-bottom: 30px;
+  }
 }
