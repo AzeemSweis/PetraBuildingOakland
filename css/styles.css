@@ -150,6 +150,10 @@ a, .navbar {
   margin: auto 0;
 }
 
+.number {
+  font-size: 3rem;
+}
+
 /* Footer */
 .cl {
   padding: 10px 0 0 0;
