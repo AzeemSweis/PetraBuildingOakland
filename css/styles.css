@@ -100,6 +100,19 @@ a, .navbar {
   width: 100%;
 }
 
+/* Tenant Info */
+.tenants {
+  padding-bottom: 100px;
+}
+
+#our-tenants {
+  text-align: center;
+}
+
+#tenant-list {
+  text-align: center;
+}
+
 /* Location Info */
 
 .oakland {
