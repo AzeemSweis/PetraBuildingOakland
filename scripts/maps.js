@@ -1,4 +1,4 @@
-function initMap() {
+$(window).on('load', function initMap() {
   // The location of Uluru
   const petraOakland = {
     lat: 37.80688,
@@ -16,4 +16,4 @@ function initMap() {
   });
 
   $('body').show();
-}
+});
