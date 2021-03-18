@@ -3,6 +3,7 @@
 body {
   font-family: 'Playfair Display SC', serif;
   font-weight: 600;
+  display: none
 }
 
 p {
@@ -106,7 +107,7 @@ a, .navbar {
 }
 
 #map {
-  height: 400px;
+  height: 420px;
   width: 100%;
 }
 
