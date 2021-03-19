@@ -1,4 +1,6 @@
 $(window).on('load', function initMap() {
+  //Animation
+  $(".loader-wrapper").fadeOut("slow");
   // The location of Uluru
   const petraOakland = {
     lat: 37.80688,
