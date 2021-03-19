@@ -127,34 +127,16 @@ a, .navbar {
 /* Gallery */
 
 .gallery {
-  text-align: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding: 0 100px;
   background-color: #ededed;
 }
 
-.flex-column {
-  max-width: 450px;
-}
-
-.gal-img {
-  transition: transform .4s;
-}
-
-.gal-img:hover {
-  transform: scale(1.35);
-}
-
-/* .gallery-mob {
-  display: none;
-  text-align: center;
+#gal-title {
+  font-size: 3rem;
   padding-top: 50px;
-  padding-bottom: 50px;
-
-} */
+}
 
 .contact-us {
-  background-color: #ededed;
   text-align: center;
   padding-top: 50px;
   padding-bottom: 30px;
